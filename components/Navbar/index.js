@@ -13,7 +13,7 @@ function Navbar() {
 	const router = useRouter()
 
 	const navigationLinks = [
-		{ name: "Wir", href: "/über-uns" },
+		{ name: "Wir", href: "/wir" },
 		{ name: "Kontakt", href: "/kontakt" },
 		{ name: "Catering", href: "/catering" },
 		{ name: "Outdoorkleidung", href: "/outdoorkleidung" },
@@ -22,34 +22,31 @@ function Navbar() {
 
 	return (
 		router.pathname !== "/" && (
-			<div>
-				<div ref={fillerRef} className=""></div>
-				<div
-					ref={NavbarRef}
-					className="w-full 3xl:h-[5vh] h-[13vh] 2xl:h-[10vh] relative z-10 from-main-dark bg-gradient-to-l to-forest-green border-y-2 border-tree-brown text-white">
-					<div className="h-full w-full flex flex-row justify-between items-center px-8">
-						<div className="flex flex-row gap-4 justify-center items-center ">
-							{navigationLinks.map((link, index) => (
-								<Link
-									key={index}
-									className="p-2 font-serif font-bold rounded-lg hover:bg-main-dark/80 duration-200"
-									href={link.href}>
-									{link.name}
-								</Link>
-							))}
-						</div>
-						<Link
-							href={"/"}
-							ref={navbarLogoRef}
-							className=" rounded-full duration-200 relative justify-center items-center">
-							<Image
-								alt="logo"
-								className="rounded-lg object-contain object-center"
-								height={68}
-								width={68}
-								src={"/media/logo/hirsch_logo_bg.jpg"}></Image>
-						</Link>
+			<div
+				ref={NavbarRef}
+				className="w-full 3xl:h-[5vh] h-[13vh] 2xl:h-[10vh] fixed z-10 from-main-dark bg-gradient-to-l to-forest-green border-y-2 border-tree-brown text-white">
+				<div className="h-full w-full flex flex-row justify-between items-center px-8">
+					<div className="flex flex-row gap-4 justify-center items-center ">
+						{navigationLinks.map((link, index) => (
+							<Link
+								key={index}
+								className="p-2 font-serif font-bold rounded-lg hover:bg-main-dark/80 duration-200"
+								href={link.href}>
+								{link.name}
+							</Link>
+						))}
 					</div>
+					<Link
+						href={"/"}
+						ref={navbarLogoRef}
+						className=" rounded-full duration-200 relative justify-center items-center">
+						<Image
+							alt="logo"
+							className="rounded-lg object-contain object-center"
+							height={68}
+							width={68}
+							src={"/media/logo/hirsch_logo_bg.jpg"}></Image>
+					</Link>
 				</div>
 			</div>
 		)

@@ -1,7 +1,7 @@
 import React from "react"
 
 function catering() {
-	return <div>catering</div>
+	return <div className="min-h-screen">catering</div>
 }
 
 export default catering

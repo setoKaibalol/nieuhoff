@@ -3,7 +3,7 @@ import Link from "next/link"
 
 function Footer() {
 	const navigationLinks = [
-		{ name: "Wir", href: "/über-uns" },
+		{ name: "Wir", href: "/wir" },
 		{ name: "Kontakt", href: "/kontakt" },
 		{ name: "Catering", href: "/catering" },
 		{ name: "Outdoorkleidung", href: "/outdoorkleidung" },
@@ -11,7 +11,7 @@ function Footer() {
 	]
 
 	return (
-		<div className="relative flex flex-row justify-center items-center h-20 gap-4 w-full bg-forest-green border-t-2 border-tree-brown">
+		<div className="relative flex md:flex-row flex-col justify-center items-center md:h-20 h-auto gap-4 w-full bg-forest-green border-t-2 border-tree-brown">
 			{navigationLinks.map((link, index) => (
 				<Link
 					href={link.href}

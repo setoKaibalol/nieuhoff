@@ -1,7 +1,7 @@
 import React from "react"
 
 function versorgungsboxen() {
-	return <div>versorgungsboxen</div>
+	return <div className="min-h-screen">versorgungsboxen</div>
 }
 
 export default versorgungsboxen
