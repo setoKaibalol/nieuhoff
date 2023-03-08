@@ -5,13 +5,10 @@ function HeroSection() {
 	return (
 		<div className="3xl:h-[95vh] h-[87vh] 2xl:h-[90vh] bg-forest-green flex justify-center items-center">
 			<div className="absolute h-full w-full z-0 ">
-				<video
-					muted
-					autoPlay
-					loop
-					className="w-full h-full object-cover object-center">
-					<source src="/media/drone_videos/forest_wild_cut.mp4" />
-				</video>
+				<Image
+					src={"/media/images/wald_offen.jpg"}
+					style={{ objectFit: "cover" }}
+					fill></Image>
 			</div>
 
 			<div className="w-full h-full relative flex justify-center items-center backdrop-contrast-125 backdrop-brightness-110">
