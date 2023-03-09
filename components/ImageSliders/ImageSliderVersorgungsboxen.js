@@ -4,7 +4,7 @@ import "keen-slider/keen-slider.min.css"
 import Image from "next/image"
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs"
 
-export default () => {
+export default function ImageSliderVersorgungsboxen() {
 	const [loaded, setLoaded] = useState(false)
 
 	const [sliderRef, instanceRef] = useKeenSlider({
