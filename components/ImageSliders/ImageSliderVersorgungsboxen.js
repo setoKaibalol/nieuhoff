@@ -22,6 +22,9 @@ export default function ImageSliderVersorgungsboxen() {
 			<div className="keen-slider__slide number-slide1">
 				<div className="relative w-full h-80 flex justify-center items-center">
 					<Image
+						alt="versorgungsbox_1"
+						placeholder="blur"
+						blurDataURL="/media/images/versorgungsboxen/1.jpeg"
 						style={{ objectFit: "contain", objectPosition: "center" }}
 						className=""
 						src={"/media/images/versorgungsboxen/1.jpeg"}
@@ -31,6 +34,9 @@ export default function ImageSliderVersorgungsboxen() {
 			<div className="keen-slider__slide number-slide2">
 				<div className="relative  w-full h-80 flex justify-center items-center">
 					<Image
+						alt="versorgungsbox_2"
+						placeholder="blur"
+						blurDataURL="/media/images/versorgungsboxen/2.jpeg"
 						style={{ objectFit: "contain", objectPosition: "center" }}
 						src={"/media/images/versorgungsboxen/2.jpeg"}
 						fill></Image>
@@ -39,6 +45,9 @@ export default function ImageSliderVersorgungsboxen() {
 			<div className="keen-slider__slide number-slide3">
 				<div className="relative  w-full h-80 flex justify-center items-center">
 					<Image
+						alt="versorgungsbox_3"
+						placeholder="blur"
+						blurDataURL="/media/images/versorgungsboxen/3.jpeg"
 						style={{ objectFit: "contain" }}
 						src={"/media/images/versorgungsboxen/3.jpeg"}
 						fill></Image>
@@ -47,6 +56,9 @@ export default function ImageSliderVersorgungsboxen() {
 			<div className="keen-slider__slide number-slide4">
 				<div className="relative  w-full h-80 flex justify-center items-center">
 					<Image
+						alt="versorgungsbox_4"
+						placeholder="blur"
+						blurDataURL="/media/images/versorgungsboxen/4.jpeg"
 						style={{ objectFit: "contain" }}
 						src={"/media/images/versorgungsboxen/4.jpeg"}
 						fill></Image>
@@ -55,6 +67,9 @@ export default function ImageSliderVersorgungsboxen() {
 			<div className="keen-slider__slide number-slide5">
 				<div className="relative  w-full h-80 flex justify-center items-center">
 					<Image
+						alt="versorgungsbox_5"
+						placeholder="blur"
+						blurDataURL="/media/images/versorgungsboxen/5.jpeg"
 						style={{ objectFit: "contain" }}
 						src={"/media/images/versorgungsboxen/5.jpeg"}
 						fill></Image>

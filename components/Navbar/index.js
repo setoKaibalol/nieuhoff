@@ -41,6 +41,8 @@ function Navbar() {
 						ref={navbarLogoRef}
 						className=" rounded-full duration-200 relative justify-center items-center">
 						<Image
+							placeholder="blur"
+							blurDataURL="/media/logo/hirsch_logo_nobg_notext.png"
 							alt="logo"
 							className="rounded-lg object-contain object-center"
 							height={68}

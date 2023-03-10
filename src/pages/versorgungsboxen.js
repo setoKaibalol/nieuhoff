@@ -31,7 +31,7 @@ function versorgungsboxen() {
 				</p>
 
 				<h3 className="font-medium text-lg pt-10">Angebote:</h3>
-				<div className="p-4 text-md border-2 gap-x-4 rounded-lg items-center w-full flex flex-row">
+				<div className="p-4 text-md border-2 max-w-5xl gap-x-4 rounded-lg items-center w-full flex flex-row">
 					<AiFillInfoCircle className="flex-shrink-0 w-6 h-6 text-black"></AiFillInfoCircle>
 
 					<div>
@@ -84,7 +84,7 @@ function versorgungsboxen() {
 						<div>18.00 €</div>
 					</li>
 					<li className="flex flex-row w-full max-w-3xl justify-between">
-						<div>Premium</div>
+						<div>Extra</div>
 						<div className="flex flex-col text-gray-500">
 							<div className="flex flex-row justify-between w-40 items-center">
 								<p>Boxgröße</p>

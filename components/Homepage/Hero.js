@@ -7,6 +7,9 @@ function HeroSection() {
 			<div className="absolute h-full w-full z-0 ">
 				<Image
 					src={"/media/images/wald_offen.jpg"}
+					alt="wald"
+					placeholder="blur"
+					blurDataURL="/media/images/wald_offen.jpg"
 					style={{ objectFit: "cover" }}
 					fill></Image>
 			</div>

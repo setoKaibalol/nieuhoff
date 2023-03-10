@@ -8,11 +8,14 @@ function Wir() {
 				<Image
 					src={"/media/images/forest_banner.jpg"}
 					fill
+					priority
+					placeholder="blur"
+					blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCA"
 					style={{ objectFit: "cover", objectPosition: "center" }}></Image>
 			</div>
 			<div className="px-10 pt-5 gap-4 flex flex-col w-4/6">
 				<p className="font-bold text-xl">
-					Herzlich Willkommen bei uns - Ihrem lokalen Jäger und Förster!
+					Herzlich Willkommen bei uns - Ihrem lokalen Jäger und Forstwirt!
 				</p>
 				<p>
 					Wir sind ein Familienbetrieb, der seit Generationen in der Forst- und
@@ -44,25 +47,39 @@ function Wir() {
 			</div>
 			<div className="px-10 pt-5 gap-4 flex flex-col w-4/6">
 				<p className="font-medium text-lg">Über Ralf Nieuhoff</p>
-				Pariatur labore dolore occaecat nostrud cillum. Esse officia ut
-				consectetur id minim. Elit voluptate fugiat mollit minim.
-				<p>
-					Irure non ea ad cillum minim aute anim ut elit amet eu. Anim
-					exercitation elit amet consequat consequat nostrud eu ad anim.
-					Deserunt cupidatat culpa et do nulla eiusmod voluptate sunt occaecat
-					velit.{" "}
-				</p>
-				<p>
-					Nulla voluptate adipisicing non est non ex mollit. Aute consectetur
-					veniam tempor eu. Fugiat nulla mollit non cillum esse excepteur
-					adipisicing sit occaecat esse laboris officia veniam.{" "}
-				</p>
-				<div>
-					Ea laboris voluptate mollit incididunt eiusmod nisi elit tempor et
-					aliquip. Magna reprehenderit reprehenderit excepteur exercitation sit
-					esse ad. Enim dolor mollit esse nostrud anim. Duis nostrud Lorem ex do
-					enim esse nostrud eiusmod reprehenderit ad proident nostrud.
-					Incididunt dolore officia anim occaecat exercitation ullamco.{" "}
+				<div className="flex flex-row">
+					<div className="h-80 w-1/2">
+						<p>
+							Irure non ea ad cillum minim aute anim ut elit amet eu. Anim
+							exercitation elit amet consequat consequat nostrud eu ad anim.
+							Deserunt cupidatat culpa et do nulla eiusmod voluptate sunt
+							occaecat velit.{" "}
+						</p>
+						<p>
+							Nulla voluptate adipisicing non est non ex mollit. Aute
+							consectetur veniam tempor eu. Fugiat nulla mollit non cillum esse
+							excepteur adipisicing sit occaecat esse laboris officia veniam.{" "}
+						</p>
+						<p>
+							Ea laboris voluptate mollit incididunt eiusmod nisi elit tempor et
+							aliquip. Magna reprehenderit reprehenderit excepteur exercitation
+							sit esse ad. Enim dolor mollit esse nostrud anim. Duis nostrud
+							Lorem ex do enim esse nostrud eiusmod reprehenderit ad proident
+							nostrud. Incididunt dolore officia anim occaecat exercitation
+							ullamco.{" "}
+						</p>
+					</div>
+					<div className="relative w-1/2 h-80">
+						<Image
+							src={"/media/images/ralf_nieuhoff/1.jpeg"}
+							fill
+							placeholder="blur"
+							blurDataURL="/media/images/ralf_nieuhoff/1.jpeg"
+							style={{
+								objectFit: "contain",
+								objectPosition: "center",
+							}}></Image>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -111,6 +111,8 @@ function HeroNavbar() {
 						ref={navbarLogoRef}
 						className="rounded-full relative max-w-[60px] 3xl:max-w-[80px] 2xl:max-w-[70px] 3xl:h-[5vh] h-[13vh] 2xl:h-[10vh] duration-200 w-full justify-center items-center">
 						<Image
+							placeholder="blur"
+							blurDataURL="/media/logo/hirsch_logo_bg.jpg"
 							alt="logo"
 							className="rounded-lg object-contain object-center"
 							fill

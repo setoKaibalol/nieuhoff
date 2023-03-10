@@ -22,6 +22,9 @@ export default function ImageSliderCatering() {
 			<div className="keen-slider__slide number-slide1">
 				<div className="relative w-full h-80 flex justify-center items-center">
 					<Image
+						alt="Schweinebraten"
+						placeholder="blur"
+						blurDataURL="/media/images/catering/schweinebraten_1.jpeg"
 						style={{ objectFit: "contain", objectPosition: "center" }}
 						className=""
 						src={"/media/images/catering/schweinebraten_1.jpeg"}
@@ -31,6 +34,9 @@ export default function ImageSliderCatering() {
 			<div className="keen-slider__slide number-slide2">
 				<div className="relative  w-full h-80 flex justify-center items-center">
 					<Image
+						alt="Würstchen"
+						placeholder="blur"
+						blurDataURL="/media/images/catering/würstchen_1.jpeg"
 						style={{ objectFit: "contain", objectPosition: "center" }}
 						src={"/media/images/catering/würstchen_1.jpeg"}
 						fill></Image>
@@ -39,6 +45,9 @@ export default function ImageSliderCatering() {
 			<div className="keen-slider__slide number-slide3">
 				<div className="relative  w-full h-80 flex justify-center items-center">
 					<Image
+						alt="Gulasch"
+						placeholder="blur"
+						blurDataURL="/media/images/catering/gulasch_1.jpeg"
 						style={{ objectFit: "contain" }}
 						src={"/media/images/catering/gulasch_1.jpeg"}
 						fill></Image>
@@ -47,6 +56,9 @@ export default function ImageSliderCatering() {
 			<div className="keen-slider__slide number-slide4">
 				<div className="relative  w-full h-80 flex justify-center items-center">
 					<Image
+						alt="Hummer"
+						placeholder="blur"
+						blurDataURL="/media/images/catering/hummer_1.jpeg"
 						style={{ objectFit: "contain" }}
 						src={"/media/images/catering/hummer_1.jpeg"}
 						fill></Image>
@@ -55,6 +67,9 @@ export default function ImageSliderCatering() {
 			<div className="keen-slider__slide number-slide5">
 				<div className="relative  w-full h-80 flex justify-center items-center">
 					<Image
+						alt="Schweinebraten"
+						placeholder="blur"
+						blurDataURL="/media/images/catering/schweinebraten_2.jpeg"
 						style={{ objectFit: "contain" }}
 						src={"/media/images/catering/würstchen_2.jpeg"}
 						fill></Image>
