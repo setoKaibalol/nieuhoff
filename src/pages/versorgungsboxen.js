@@ -51,10 +51,12 @@ function versorgungsboxen() {
 					</div>
 				</div>
 
-				<ul className="flex flex-col pb-10 gap-2 divide-y-2 gap-y-6 py-4">
-					<li className="flex flex-row w-full max-w-3xl justify-between">
-						<div>Standard</div>
-						<div className="flex flex-col text-gray-500">
+				<ul className="flex flex-col pb-10 gap-2 gap-y-6 py-2">
+					<li className="flex flex-row w-full max-w-5xl border rounded-md p-4 shadow-sm justify-between">
+						<div className="w-1/6 text-xl font-medium justify-center items-center h-full">
+							Standard
+						</div>
+						<div className="flex flex-col text-gray-500 items-center w-4/6">
 							<div className="flex flex-row justify-between w-40 items-center">
 								<p>Boxgröße</p>
 								<p className="flex justify-center w-6">M</p>
@@ -81,11 +83,13 @@ function versorgungsboxen() {
 								<AiOutlineClose className=" text-red-600 font-bold h-5 w-5"></AiOutlineClose>
 							</div>
 						</div>
-						<div>18.00 €</div>
+						<div className="w-1/6 flex justify-end">18.00 €</div>
 					</li>
-					<li className="flex flex-row w-full max-w-3xl justify-between">
-						<div>Extra</div>
-						<div className="flex flex-col text-gray-500">
+					<li className="flex h-auto flex-row w-full border rounded-md p-4 shadow-sm max-w-5xl justify-between">
+						<div className="w-1/6 text-xl font-medium justify-center items-center h-full">
+							Deluxe
+						</div>
+						<div className="flex flex-col text-gray-500 items-center w-4/6">
 							<div className="flex flex-row justify-between w-40 items-center">
 								<p>Boxgröße</p>
 								<p className="flex justify-center w-6">L</p>
@@ -113,11 +117,13 @@ function versorgungsboxen() {
 								<AiOutlineClose className=" text-red-600 font-bold h-5 w-5"></AiOutlineClose>
 							</div>
 						</div>
-						<div>24.00 €</div>
+						<div className="w-1/6 flex justify-end">24.00 €</div>
 					</li>
-					<li className="flex flex-row w-full max-w-3xl justify-between">
-						<div>Premium</div>
-						<div className="flex flex-col text-gray-500">
+					<li className="flex flex-row w-full border rounded-md p-4 shadow-sm max-w-5xl justify-between">
+						<div className="w-1/6 text-xl font-medium justify-center items-center h-full">
+							Premium
+						</div>
+						<div className="flex flex-col text-gray-500 items-center w-4/6">
 							<div className="flex flex-row justify-between w-40 items-center">
 								<p>Boxgröße</p>
 								<p className="flex justify-center w-6">L</p>
@@ -144,7 +150,7 @@ function versorgungsboxen() {
 								<AiOutlineCheck className=" text-green-600 font-bold h-5 w-5"></AiOutlineCheck>
 							</div>
 						</div>
-						<div>80.00 €</div>
+						<div className="flex justify-end w-1/6">80.00 €</div>
 					</li>
 				</ul>
 
