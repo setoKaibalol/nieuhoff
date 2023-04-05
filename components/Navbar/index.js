@@ -17,7 +17,8 @@ function Navbar() {
 		{ name: "Kontakt", href: "/kontakt" },
 		{ name: "Catering", href: "/catering" },
 		{ name: "Outdoorkleidung", href: "/outdoorkleidung" },
-		{ name: "Versorgungsboxen", href: "/versorgungsboxen" },
+		/* 		{ name: "Versorgungsboxen", href: "/versorgungsboxen" },
+		 */
 	]
 
 	return (

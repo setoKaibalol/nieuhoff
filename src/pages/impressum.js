@@ -7,14 +7,15 @@ function impressum() {
 				<h1 className="font-medium text-xl">Impressum</h1>
 				<div>
 					<br></br>
-					AFM Auto & Freizeit am Michel GmbH <br></br>Wendenstraße 29 <br></br>
-					20097 Hamburg
+					Ralf Nieuhoff <br></br>Alte Schulstraße 4b <br></br>
+					23936 Mummendorf
 					<br></br> <br></br>
-					Telefon: 0 40 37 31 32 <br></br> Website: http://www.autofreizeit.de
-					<br></br> Email: info@autofreizeit.de <br></br> <br></br>
-					Unternehmensform: GmbH <br></br> Geschäftsführer: Arne Rexroth{" "}
+					Telefon: 0152 02388236 <br></br> Website: www.nieuhoff.com
+					<br></br> Email: nieuhoff@t-online.de <br></br> <br></br>{" "}
+					Geschäftsführer: Ralf Nieuhoff <br></br>
+					Steuer ID 48/700/04007 <br></br>
 					<br></br>
-					Steuer ID 48/700/04007 <br></br> Amtsgericht Hamburg HRB 144224
+					Zuständige Aufsichtsbehörde: Nordwestmecklenburg <br></br>
 				</div>
 			</div>
 		</div>
