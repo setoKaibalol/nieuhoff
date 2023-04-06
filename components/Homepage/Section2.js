@@ -3,9 +3,9 @@ import Image from "next/image"
 
 function Section1() {
 	return (
-		<div className="h-auto w-full flex justify-center">
-			<div className="w-5/6 h-auto flex flex-row p-10 gap-4">
-				<div className="w-3/6 h-80 relative ">
+		<div className="h-auto w-full pt-8 flex font-medium bg-tree-brown/30  text-lg justify-center">
+			<div className="lg:w-5/6 h-auto flex lg:flex-row flex-col lg:p-10 gap-4">
+				<div className="lg:w-3/6 w-full h-96 lg:h-80 relative ">
 					<Image
 						alt="hut_at_night"
 						sizes="(max-width: 768px) 100vw, 768px"
@@ -14,18 +14,16 @@ function Section1() {
 						src={"/media/images/hut_at_night.jpeg"}
 						fill></Image>
 				</div>
-				<div className="w-3/6 flex justify-end">
-					Duis laboris ad eiusmod magna nostrud sit. Pariatur laboris sunt
-					aliqua sint quis ullamco minim laborum do enim. Ipsum laborum amet
-					anim elit et ut mollit veniam ullamco deserunt ut. Sunt consectetur
-					cupidatat dolor in occaecat et sint aliqua ullamco quis. Adipisicing
-					proident eiusmod est proident. Et deserunt laboris voluptate dolore
-					voluptate consectetur. Magna culpa ad amet deserunt sit voluptate.
-					<br></br>
-					<br></br>
-					Dolore pariatur sint sunt minim ipsum consequat elit incididunt sunt
-					duis. Dolore proident aliquip duis occaecat. Consectetur dolore anim
-					irure culpa nisi nisi Lorem irure cupidatat esse.
+				<div className="lg:w-3/6 w-full flex p-4 justify-end">
+					Ich lade Sie ein, meine vielfältigen Angebote zu entdecken. Genießen
+					Sie mein Catering mit erstklassigen Wildgerichten und individuellen
+					Menüoptionen für bis zu 60 Personen. Erleben Sie die einzigartige
+					Atmosphäre meines Hofladens in meiner selbstgebauten Blockhütte, wo
+					Sie lokale Produkte und hochwertige Outdoorkleidung der Marke "Deer
+					Hunter" finden. Ich lege hohen Wert auf persönlichen Kontakt und eine
+					enge Beziehung zu meinen Kunden und freue mich darauf, Sie
+					kennenzulernen und Ihnen meine Leidenschaft für Forstwirtschaft, gutes
+					Essen und Outdoor-Aktivitäten näherzubringen.
 				</div>
 			</div>
 		</div>

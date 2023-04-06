@@ -9,40 +9,38 @@ function catering() {
 				<p className="font-medium text-lg">Willkommen im Bereich Catering!</p>
 
 				<p>
-					{" "}
-					Wir sind stolz darauf, Ihnen erstklassige Catering-Services für jeden
-					Anlass anzubieten. Ob Sie eine private Feier, ein Firmenevent oder
-					eine Hochzeit planen, wir sind Ihr zuverlässiger Partner für
+					Ich freue mich darauf, Ihnen erstklassige Catering-Services für bis zu
+					60 Leute anzubieten. Ob Sie eine private Feier, ein Firmenevent oder
+					eine Hochzeit planen, ich bin Ihr zuverlässiger Partner für
 					hochwertiges Catering in Hamburg und Umgebung.
 				</p>
 				<p>
-					Durch Jahrzehnte Catering Erfahrung und eine Lebenslange Leidenschaft
-					fürs Kochen, konzentrieren wir uns darauf Ihre individuellen Wünsche
-					und Bedürfnisse zu erfüllen. Wir verwenden Zutaten, die nicht nur
-					köstlich, sondern auch gesund sind. Dabei legen wir Wert auf regionale
-					Produkte und eine nachhaltige Beschaffung.
+					Dank meiner jahrzehntelangen Catering-Erfahrung und lebenslangen
+					Leidenschaft fürs Kochen konzentriere ich mich darauf, Ihre
+					individuellen Wünsche und Bedürfnisse zu erfüllen. Ich verwende
+					Zutaten, die nicht nur köstlich, sondern auch gesund sind. Dabei lege
+					ich Wert auf regionale Produkte und eine nachhaltige Beschaffung.
 				</p>
 				<p>
-					Wir bieten eine breite Palette an Wildgerichten und Hausmannskost an.
-					Unsere Menüs werden individuell auf Ihre Bedürfnisse abgestimmt und
+					Ich biete eine breite Palette an Wildgerichten und Hausmannskost an.
+					Meine Menüs werden individuell auf Ihre Bedürfnisse abgestimmt und
 					können auch spezielle Ernährungsbedürfnisse wie vegetarische, vegane
 					oder glutenfreie Optionen berücksichtigen.
 				</p>
 				<p>
-					Wir verstehen, dass jeder Anlass einzigartig ist und daher eine
-					individuelle Herangehensweise erfordert. Unser erfahrenes Team
-					arbeitet eng mit Ihnen zusammen, um Ihre Vorstellungen und
-					Anforderungen zu verstehen und eine unvergessliche kulinarische
-					Erfahrung zu schaffen.
+					Ich verstehe, dass jeder Anlass einzigartig ist und daher eine
+					individuelle Herangehensweise erfordert. Ich arbeite eng mit Ihnen
+					zusammen, um Ihre Vorstellungen und Anforderungen zu verstehen und
+					eine unvergessliche kulinarische Erfahrung zu schaffen.
 				</p>
 				<p>
-					Wir freuen uns darauf, Ihnen bei der Planung Ihres nächsten Events zu
-					helfen. Kontaktieren Sie uns gerne für ein unverbindliches Angebot
-					oder weitere Informationen. Wir sind stolz darauf, dass unser
-					Catering-Service nicht nur köstlich, sondern auch nachhaltig ist. Wir
-					setzen uns für Umweltschutz und Nachhaltigkeit ein und wenn mal keine
-					eigenen Zutaten benutzt werden arbeiten mit lokalen Lieferanten und
-					Produzenten zusammen, um sicherzustellen, dass unsere Zutaten und
+					Ich freue mich darauf, Ihnen bei der Planung Ihres nächsten Events zu
+					helfen. Kontaktieren Sie mich gerne für ein unverbindliches Angebot
+					oder weitere Informationen. Ich bin stolz darauf, dass mein
+					Catering-Service nicht nur köstlich, sondern auch nachhaltig ist. Ich
+					setze mich für Umweltschutz und Nachhaltigkeit ein und arbeite, wenn
+					keine eigenen Zutaten verwendet werden, mit lokalen Lieferanten und
+					Produzenten zusammen, um sicherzustellen, dass meine Zutaten und
 					Produkte von höchster Qualität sind.
 				</p>
 				<div>
