@@ -19,11 +19,11 @@ function Section1() {
 					Sie mein Catering mit erstklassigen Wildgerichten und individuellen
 					Menüoptionen für bis zu 60 Personen. Erleben Sie die einzigartige
 					Atmosphäre meines Hofladens in meiner selbstgebauten Blockhütte, wo
-					Sie lokale Produkte und hochwertige Outdoorkleidung der Marke "Deer
-					Hunter" finden. Ich lege hohen Wert auf persönlichen Kontakt und eine
-					enge Beziehung zu meinen Kunden und freue mich darauf, Sie
-					kennenzulernen und Ihnen meine Leidenschaft für Forstwirtschaft, gutes
-					Essen und Outdoor-Aktivitäten näherzubringen.
+					Sie lokale Produkte und hochwertige Outdoorkleidung der Marke
+					&quot;Deer Hunter&quot; finden. Ich lege hohen Wert auf persönlichen
+					Kontakt und eine enge Beziehung zu meinen Kunden und freue mich
+					darauf, Sie kennenzulernen und Ihnen meine Leidenschaft für
+					Forstwirtschaft, gutes Essen und Outdoor-Aktivitäten näherzubringen.
 				</div>
 			</div>
 		</div>

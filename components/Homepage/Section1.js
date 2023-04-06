@@ -23,11 +23,10 @@ function Section1() {
 						hauptsächlich Wildgerichten und flexiblen Alternativen. Besuchen Sie
 						meinen charmanten Hofladen in einer selbstgebauten Blockhütte, wo
 						Sie nicht nur meine köstlichen Produkte entdecken, sondern auch
-						Jäger- und Outdoorkleidung der Marke "Deer Hunter" finden. Als
-						kleines Unternehmen ohne Angestellte lege ich großen Wert auf
-						Qualität und Kundenzufriedenheit. Entdecken Sie mein Angebot und
-						lassen Sie sich von der Qualität meiner Produkte und
-						Dienstleistungen überzeugen.
+						Jäger- und Outdoorkleidung finden. Als kleines Unternehmen ohne
+						Angestellte lege ich großen Wert auf Qualität und
+						Kundenzufriedenheit. Entdecken Sie mein Angebot und lassen Sie sich
+						von der Qualität meiner Produkte und Dienstleistungen überzeugen.
 					</p>
 				</div>
 				<div className="w-3/6 h-96 hidden lg:block relative ">
