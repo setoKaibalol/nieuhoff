@@ -13,7 +13,7 @@ function impressum() {
 					Telefon: 0152 02388236 <br></br> Website: www.nieuhoff.com
 					<br></br> Email: nieuhoff@t-online.de <br></br> <br></br>{" "}
 					Geschäftsführer: Ralf Nieuhoff <br></br>
-					Steuer ID 48/700/04007 <br></br>
+					{/* Steuer ID 48/700/04007 */} <br></br>
 					<br></br>
 					Zuständige Aufsichtsbehörde: Nordwestmecklenburg <br></br>
 				</div>
